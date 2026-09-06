@@ -1,0 +1,875 @@
+JAVASCRIPT ROADMAP — BEGINNER TO ADVANCED
+Based primarily on MDN's official JavaScript Guide and Reference
+
+============================================================
+LEVEL 0 — PREREQUISITES
+============================================================
+
+HTML
+- Elements
+- Attributes
+- Forms
+- Semantic HTML
+- DOM concept
+
+CSS
+- Selectors
+- Box model
+- Flexbox
+- Basic responsive design
+
+
+============================================================
+LEVEL 1 — JAVASCRIPT FUNDAMENTALS
+============================================================
+
+- What is JavaScript?
+- JavaScript vs ECMAScript
+- JavaScript runtime
+- Browser vs JavaScript engine
+- How JavaScript executes
+- Console
+- <script>
+- Strict mode
+
+Understand:
+- ECMAScript = core JavaScript language
+- Browser/Node.js = host environments
+
+
+============================================================
+LEVEL 2 — GRAMMAR & TYPES
+============================================================
+
+Variables:
+- let
+- const
+- var
+- Declaration
+- Initialization
+- Reassignment
+- Scope
+
+Data Types:
+
+Primitive:
+- String
+- Number
+- BigInt
+- Boolean
+- Undefined
+- Null
+- Symbol
+
+Non-primitive:
+- Object
+
+Important:
+- Dynamic typing
+- Type coercion
+- typeof
+- Truthy / falsy
+- null
+- undefined
+- NaN
+- Infinity
+
+
+============================================================
+LEVEL 3 — OPERATORS & EXPRESSIONS
+============================================================
+
+Arithmetic:
+- +
+- -
+- *
+- /
+- %
+- **
+
+Comparison:
+- >
+- <
+- >=
+- <=
+- ===
+- !==
+- ==
+- !=
+
+Logical:
+- &&
+- ||
+- !
+
+Modern:
+- ??
+- ?.
+
+Understand deeply:
+- == vs ===
+- || vs ??
+- &&
+
+
+============================================================
+LEVEL 4 — CONTROL FLOW
+============================================================
+
+- if
+- else
+- else if
+- switch
+- for
+- while
+- do...while
+- break
+- continue
+- for...in
+- for...of
+
+Error handling:
+- try
+- catch
+- finally
+- throw
+
+Practice projects:
+- Number guessing game
+- Calculator
+- Grade calculator
+- Login validation
+- Simple ATM program
+
+
+============================================================
+LEVEL 5 — FUNCTIONS
+============================================================
+
+Learn:
+- Function declarations
+- Function expressions
+- Arrow functions
+- Parameters
+- Default parameters
+- Rest parameters
+- Arguments
+- Return values
+- Higher-order functions
+- Callbacks
+- Closures
+
+IMPORTANT:
+Closures are one of the most important JavaScript concepts.
+
+
+============================================================
+LEVEL 6 — ARRAYS
+============================================================
+
+Understand:
+- length
+- index
+- mutation
+- iteration
+
+Methods:
+- push()
+- pop()
+- shift()
+- unshift()
+- slice()
+- splice()
+- concat()
+- indexOf()
+- includes()
+- find()
+- findIndex()
+- some()
+- every()
+- map()
+- filter()
+- reduce()
+- sort()
+- reverse()
+
+Especially master:
+- map()
+- filter()
+- reduce()
+- find()
+- some()
+- every()
+
+
+============================================================
+LEVEL 7 — OBJECTS
+============================================================
+
+- Object creation
+- Property access
+- Computed properties
+- Object methods
+- Getters
+- Setters
+- Property descriptors
+- Object copying
+
+Important methods:
+- Object.keys()
+- Object.values()
+- Object.entries()
+- Object.assign()
+- Object.create()
+- Object.freeze()
+- Object.seal()
+
+
+============================================================
+LEVEL 8 — MODERN JAVASCRIPT SYNTAX
+============================================================
+
+- Destructuring
+- Array destructuring
+- Object destructuring
+- Spread syntax
+- Rest syntax
+- Template literals
+- Optional chaining
+- Nullish coalescing
+
+These features are heavily used in modern JavaScript and React.
+
+
+============================================================
+LEVEL 9 — BUILT-IN OBJECTS
+============================================================
+
+Study:
+- Object
+- Array
+- String
+- Number
+- Math
+- Date
+- RegExp
+- JSON
+- Map
+- Set
+- WeakMap
+- WeakSet
+- Error
+- Promise
+- Symbol
+- BigInt
+
+
+============================================================
+LEVEL 10 — CLASSES & OOP
+============================================================
+
+- class
+- constructor
+- methods
+- static
+- extends
+- super
+- private fields
+- getters
+- setters
+
+IMPORTANT:
+JavaScript classes are built on top of the prototype system.
+
+
+============================================================
+LEVEL 11 — THIS
+============================================================
+
+Master `this` in:
+
+- Global context
+- Regular functions
+- Object methods
+- Arrow functions
+- Constructors
+- Classes
+
+Explicit binding:
+- call()
+- apply()
+- bind()
+
+IMPORTANT:
+Understand why `this` behaves differently in regular functions and arrow functions.
+
+
+============================================================
+LEVEL 12 — PROTOTYPES & INHERITANCE
+============================================================
+
+- Prototype
+- Prototype chain
+- __proto__
+- Object.create()
+- Constructor functions
+- Inheritance
+- Property lookup
+
+Understand:
+
+object
+  |
+  v
+prototype
+  |
+  v
+prototype's prototype
+  |
+  v
+Object.prototype
+  |
+  v
+null
+
+
+============================================================
+LEVEL 13 — DOM & BROWSER JAVASCRIPT
+============================================================
+
+Selecting elements:
+- document.querySelector()
+- document.querySelectorAll()
+- getElementById()
+
+Manipulation:
+- textContent
+- innerHTML
+- classList
+- style
+- attributes
+
+Creating elements:
+- document.createElement()
+- append()
+- prepend()
+- remove()
+
+Events:
+- click
+- input
+- change
+- submit
+- keydown
+- keyup
+
+Event propagation:
+- Capturing
+- Target
+- Bubbling
+
+Important:
+- addEventListener()
+- removeEventListener()
+- event.target
+- event.currentTarget
+- event.preventDefault()
+- event.stopPropagation()
+
+
+============================================================
+LEVEL 14 — ASYNCHRONOUS JAVASCRIPT
+============================================================
+
+Understand:
+- Synchronous
+- Asynchronous
+- Blocking
+- Non-blocking
+
+Learn:
+- Callbacks
+- Promises
+- then()
+- catch()
+- finally()
+- Promise chaining
+- async
+- await
+
+Promise combinators:
+- Promise.all()
+- Promise.allSettled()
+- Promise.race()
+- Promise.any()
+
+IMPORTANT:
+This is one of the biggest JavaScript milestones.
+
+
+============================================================
+LEVEL 15 — FETCH & WEB APIs
+============================================================
+
+Learn:
+- fetch()
+- Request
+- Response
+- Headers
+- Body
+- JSON
+- HTTP status codes
+
+HTTP basics:
+- GET
+- POST
+- PUT
+- PATCH
+- DELETE
+
+Common browser APIs:
+- localStorage
+- sessionStorage
+- URL
+- URLSearchParams
+- Timers
+- Web Storage
+- History
+- Clipboard
+- Geolocation
+
+
+============================================================
+LEVEL 16 — MODULES
+============================================================
+
+- ES Modules
+- import
+- export
+- Named exports
+- Default exports
+- Module scope
+- Renaming imports/exports
+- Aggregating modules
+- Dynamic import()
+- CommonJS basics
+
+IMPORTANT:
+Modern JavaScript applications depend heavily on modules.
+
+
+============================================================
+LEVEL 17 — ITERATORS & GENERATORS
+============================================================
+
+- Iterable
+- Iterator
+- Symbol.iterator
+- Generator functions
+- yield
+- generator.next()
+
+
+============================================================
+LEVEL 18 — REGULAR EXPRESSIONS
+============================================================
+
+- Character classes
+- Quantifiers
+- Groups
+- Capturing groups
+- Backreferences
+- Assertions
+- Flags
+
+Methods:
+- test()
+- match()
+- matchAll()
+- replace()
+- search()
+
+
+============================================================
+LEVEL 19 — TYPED ARRAYS & BINARY DATA
+============================================================
+
+- ArrayBuffer
+- TypedArray
+- Uint8Array
+- Int32Array
+- Float32Array
+- DataView
+
+Useful for:
+- Files
+- Binary protocols
+- Audio
+- Images
+- Web APIs
+- Performance-sensitive applications
+
+
+============================================================
+LEVEL 20 — INTERNATIONALIZATION
+============================================================
+
+- Intl
+- Date formatting
+- Number formatting
+- Currency
+- Collation
+- Localization
+
+Important:
+- Intl.NumberFormat()
+- Intl.DateTimeFormat()
+
+
+============================================================
+LEVEL 21 — ADVANCED JAVASCRIPT INTERNALS
+============================================================
+
+Execution:
+- Execution context
+- Global execution context
+- Function execution context
+- Lexical environment
+- Variable environment
+
+Scope:
+- Global scope
+- Function scope
+- Block scope
+- Lexical scope
+
+Runtime:
+- Call stack
+- Event loop
+- Task queue
+- Microtask queue
+
+Deep concepts:
+- Closures
+- Prototype chain
+- Property lookup
+
+
+============================================================
+LEVEL 22 — EQUALITY & TYPE COERCION
+============================================================
+
+Understand deeply:
+- ==
+- ===
+- Object.is()
+- Type coercion
+- Equality comparisons
+- SameValue
+- SameValueZero
+
+Examples to understand:
+- 0 == false
+- 0 === false
+- Object.is(NaN, NaN)
+
+
+============================================================
+LEVEL 23 — MEMORY MANAGEMENT
+============================================================
+
+Learn:
+- Memory allocation
+- Memory usage
+- Garbage collection
+- Reachability
+- Memory leaks
+- WeakMap
+- WeakSet
+
+Goal:
+Understand why objects remain in memory and how memory leaks can happen.
+
+
+============================================================
+LEVEL 24 — META PROGRAMMING
+============================================================
+
+- Proxy
+- Reflect
+- Symbols
+- Property descriptors
+- Getters
+- Setters
+
+Example concepts:
+- Intercepting property access
+- Intercepting assignments
+- Custom object behavior
+
+
+============================================================
+LEVEL 25 — RESOURCE MANAGEMENT
+============================================================
+
+Modern JavaScript resource-management features:
+- using
+- await using
+- DisposableStack
+- AsyncDisposableStack
+
+Study these toward the end of the roadmap.
+
+
+============================================================
+COMPLETE LEARNING ORDER
+============================================================
+
+Prerequisites
+    |
+    v
+JavaScript Fundamentals
+    |
+    v
+Variables + Data Types
+    |
+    v
+Operators + Expressions
+    |
+    v
+Control Flow + Loops
+    |
+    v
+Functions
+    |
+    v
+Arrays
+    |
+    v
+Objects
+    |
+    v
+Modern JavaScript Syntax
+    |
+    v
+Built-in Objects
+    |
+    v
+Classes + OOP
+    |
+    v
+this + call/apply/bind
+    |
+    v
+Prototypes + Inheritance
+    |
+    v
+DOM + Browser APIs
+    |
+    v
+Events
+    |
+    v
+Callbacks
+    |
+    v
+Promises
+    |
+    v
+async/await
+    |
+    v
+Fetch + Web APIs
+    |
+    v
+Modules
+    |
+    v
+Iterators + Generators
+    |
+    v
+Regular Expressions
+    |
+    v
+Typed Arrays + Binary Data
+    |
+    v
+Internationalization
+    |
+    v
+Closures + Execution Context
+    |
+    v
+Event Loop + Microtasks
+    |
+    v
+Memory Management
+    |
+    v
+Proxy + Reflect + Metaprogramming
+    |
+    v
+Modern Resource Management
+    |
+    v
+ADVANCED JAVASCRIPT
+
+
+============================================================
+PRACTICAL PROJECT PROGRESSION
+============================================================
+
+BEGINNER
+- Calculator
+- Number guessing game
+- Grade calculator
+- Simple validation
+
+BASIC
+- Todo application
+- Digital clock
+- Counter
+- Quiz application
+
+INTERMEDIATE
+- Weather application using Fetch
+- Movie search application
+- Expense tracker
+- Notes application
+
+ADVANCED
+- Modular Todo application
+- Application using REST API
+- LocalStorage + API application
+- Debounced search
+- Infinite scrolling
+- Pagination
+- Custom JavaScript utility library
+
+VERY ADVANCED
+- Build a small JavaScript library
+- Build a simple state-management system
+- Build a small event emitter
+- Implement a simplified Promise
+- Implement a simple pub/sub system
+- Build a small framework-like abstraction
+
+
+============================================================
+HOW TO USE MDN
+============================================================
+
+1. LEARN — MDN JavaScript Guide
+Use the JavaScript Guide for structured learning.
+
+2. LOOK UP — MDN JavaScript Reference
+Use the Reference when you need exact details about:
+- Methods
+- Objects
+- Operators
+- Statements
+- Language features
+
+3. PRACTICE — MDN Learn Web Development
+Use MDN's learning tutorials and challenges for hands-on practice.
+
+Do NOT try to read the entire JavaScript Reference from beginning to end.
+
+Recommended approach:
+Guide -> Practice -> Reference when needed
+
+
+============================================================
+WHEN TO START REACT
+============================================================
+
+Do not jump into React immediately.
+
+Recommended order:
+
+JavaScript Fundamentals
+        |
+        v
+Functions
+        |
+        v
+Arrays
+        |
+        v
+Objects
+        |
+        v
+Scope + Closures
+        |
+        v
+this
+        |
+        v
+Prototypes
+        |
+        v
+DOM
+        |
+        v
+Events
+        |
+        v
+Promises
+        |
+        v
+async/await
+        |
+        v
+Fetch
+        |
+        v
+Modules
+        |
+        v
+React
+
+You can continue advanced JavaScript topics alongside React after you are comfortable with
+Promises, async/await, modules, objects, arrays, functions, and closures.
+
+
+============================================================
+IMPORTANT RULE
+============================================================
+
+Do not measure your progress by how many MDN pages you have read.
+
+Measure progress by what you can BUILD without a tutorial.
+
+Beginner:
+- Calculator
+
+Basic:
+- Todo App
+
+Intermediate:
+- Weather App using Fetch
+
+Advanced:
+- Modular Todo App with API + LocalStorage
+
+Very Advanced:
+- Build your own small JavaScript library or framework-like abstraction
+
+
+============================================================
+OFFICIAL MDN RESOURCES
+============================================================
+
+MDN JavaScript Guide:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+
+MDN JavaScript Reference:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+
+MDN Dynamic Scripting with JavaScript:
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting
+
+
+============================================================
+END
+============================================================
